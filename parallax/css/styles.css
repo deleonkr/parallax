@@ -1,0 +1,94 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+
+body{
+   height: 3000px;
+}
+
+/* this is how you repeat shit */
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+   height: 600px;
+   border: 0.5px solid thistle;
+   background-color: thistle;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed; /* attach to background window */
+   opacity: 0.65;
+}
+
+.bgimg1 {
+   background-image: url("../img/photo12.jpg");
+}
+
+.bgimg2 {
+   background-image: url("../img/photo02.jpg");
+}
+
+.bgimg3 {
+   background-image: url("../img/photo07.jpg");
+}
+
+.bgimg4 {
+   background-image: url("../img/photo08.jpg");
+}
+
+.words {
+   border: 3px solid mediumaquamarine;
+   background-color: slateblue;
+   width: 300px;
+   padding: 30px;
+   margin: 200px auto;
+   font-size: 36px;
+   font-weight: bold;
+   color: mistyrose;
+   text-align: center;
+}
+
+.content1 {
+   padding: 30px 120px;
+   background-color: blanchedalmond;
+}
+
+.content1 h2 {
+   text-align: center
+}
+
+.content2 {
+   padding: 30px 120px;
+   background-color: aliceblue;
+}
+
+.content2 h2 {
+   text-align: center
+}
+
+.content3 {
+   padding: 30px 120px;
+   background-color: blanchedalmond;
+}
+
+.content3 h2 {
+   text-align: center
+}
+
+.content4 {
+   padding: 30px 120px;
+   background-color: aliceblue;
+}
+
+.content4 h2 {
+   text-align: center
+}
